@@ -8,7 +8,7 @@ O projeto envolve a criação de um banco de dados PostgreSQL, a ingestão de da
 
 ## Configuração do Banco de Dados
 
-1. Instale o PostgreSQL em sua máquina.
+1. Instale o PostgreSQL em sua máquina e o arquivo 'fake_position.csv'.
 
 2. No pgAdmin, crie um banco de dados chamado `Clients`.
 
@@ -75,9 +75,11 @@ O projeto envolve a criação de um banco de dados PostgreSQL, a ingestão de da
 
 1. Clone este repositório para o seu ambiente local.
 
-2. Configure e inicie seu ambiente virtual (se estiver usando um).
+2. A consulta pode ser feita direto no banco de dados utilizando o comando do arquivo 'adhesion_consultation'.
 
-3. Execute o aplicativo ou script que calcula a aderência com base nos dados do banco de dados.
+3. Configure e inicie seu ambiente virtual (se estiver usando um).
+
+4. Execute o aplicativo ou script que calcula a aderência com base nos dados do banco de dados.
 
 
 © 2023 Thaynara Martins
