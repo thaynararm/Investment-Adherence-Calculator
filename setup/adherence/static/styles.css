@@ -1,0 +1,55 @@
+/* Estilos para o corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    margin: 1.25rem; 
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+/* Estilos para o cabeçalho h1 */
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+/* Estilos para a tabela */
+table {
+    width: 100%;
+    max-width: 130rem; 
+    border-collapse: collapse;
+    margin-top: 1.25rem; 
+    margin: 0 auto;
+    background-color: #fff;
+    box-shadow: 0 0 0.625rem rgba(0, 0, 0, 0.1); 
+}
+
+/* Estilos para as células do cabeçalho da tabela (th) */
+th {
+    background-color: #f2f2f2;
+    text-align: center;
+    padding: 0.625rem; 
+    border-bottom: 0.0625rem solid #ddd; 
+}
+
+/* Estilos para as células da tabela (td) */
+td {
+    padding: 0.625rem; 
+    border-bottom: 0.0625rem solid #ddd; 
+    text-align: center;
+}
+
+/* Estilos para as células da tabela (td) na primeira coluna */
+td:first-child {
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Estilos para as células da tabela (td) nas outras colunas */
+td:not(:first-child) {
+    text-align: center;
+}
+
+/* Estilos para as linhas ímpares da tabela */
+tr:nth-child(odd) {
+    background-color: #f9f9f9;
+}

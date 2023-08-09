@@ -1,0 +1,28 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Aderência</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'styles.css' %}">
+</head>
+<body>
+    <h1>Informações de Aderência</h1>
+    <table>
+        <tr>
+            <th>Código da Conta</th>
+            <th>Perfil do Investidor</th>
+            <th>Aderência</th>
+            <th>Classe de Ativo mais Desrespeitado</th>
+        </tr>
+        {% for result in results %}
+            <tr>
+                <td>{{ result.account_code }}</td>
+                <td>{{ result.account_suitability | default:'não informado' }}</td>
+                <td>{{ result.adherence }}</td>
+                <td>{{ result.max_discrepancy_class | default:'Não Informada' }}</td>
+            </tr>
+        {% endfor %}
+    </table>
+</body>
+</html>
