@@ -73,21 +73,15 @@ O projeto envolve a criação de um banco de dados PostgreSQL, a ingestão de da
 
 ## Como Usar
 
-1. A consulta pode ser feita direto no banco de dados utilizando o comando do arquivo 'adhesion_consultation'.
+1. A consulta pode ser feita diretamente no banco de dados usando o comando do arquivo 'adhesion_consultation.sql', mas a informação sobre a classe de ativos mais desrespeitada não é retornada por essa consulta.
 
 2. Para visualizar em uma dashboard clone este repositório para o seu ambiente local.
 
-3. Configure e inicie seu ambiente virtual (se estiver usando um).
-   
-      - Lembre-se de fazer a instalação de todas as dependências listadas no arquivo requeriments.txt. Você pode usar o comando
-  
-        	```sql
-        	pip install -r requeriments.txt
+3. Configure e inicie seu ambiente virtual (se estiver usando um) e instale as dependências listadas no arquivo requirements.txt.
 
-5. Execute o aplicativo ou script que calcula a aderência com base nos dados do banco de dados com o seguinte comando:
-
-   	```sql
-    	python manage.py runserver
+5. Execute o aplicativo ou script que calcula a aderência com base nos dados do banco de dados usando o comando:
+   ```sql
+   python manage.py runserver
 
 
 © 2023 Thaynara Martins
