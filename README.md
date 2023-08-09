@@ -70,7 +70,6 @@ O projeto envolve a criação de um banco de dados PostgreSQL, a ingestão de da
      SELECT account_code, asset_name, asset_cnpj, class_name, position_value
      FROM clients
 
-
 ## Como Usar
 
 1. A consulta pode ser feita diretamente no banco de dados usando o comando do arquivo 'adhesion_consultation.sql', mas a informação sobre a classe de ativos mais desrespeitada não é retornada por essa consulta.
@@ -82,6 +81,5 @@ O projeto envolve a criação de um banco de dados PostgreSQL, a ingestão de da
 5. Execute o aplicativo ou script que calcula a aderência com base nos dados do banco de dados usando o comando:
    ```sql
    python manage.py runserver
-
 
 © 2023 Thaynara Martins
