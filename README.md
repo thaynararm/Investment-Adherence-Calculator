@@ -78,8 +78,16 @@ O projeto envolve a criação de um banco de dados PostgreSQL, a ingestão de da
 2. Para visualizar em uma dashboard clone este repositório para o seu ambiente local.
 
 3. Configure e inicie seu ambiente virtual (se estiver usando um).
+   
+      - Lembre-se de fazer a instalação de todas as dependências listadas no arquivo requeriments.txt. Você pode usar o comando
+  
+        	```sql
+        	pip install -r requeriments.txt
 
-4. Execute o aplicativo ou script que calcula a aderência com base nos dados do banco de dados.
+5. Execute o aplicativo ou script que calcula a aderência com base nos dados do banco de dados com o seguinte comando:
+
+   	```sql
+    	python manage.py runserver
 
 
 © 2023 Thaynara Martins
