@@ -76,7 +76,7 @@ O projeto envolve a criação de um banco de dados PostgreSQL, a ingestão de da
 
 2. Para visualizar em uma dashboard clone este repositório para o seu ambiente local.
 
-3. Configure e inicie seu ambiente virtual (se estiver usando um) e instale as dependências listadas no arquivo requirements.txt.
+3. Configure e inicie seu ambiente virtual (se estiver usando um) e instale as dependências listadas no arquivo requiriments.txt.
 
 5. Execute o aplicativo ou script que calcula a aderência com base nos dados do banco de dados usando o comando:
    ```sql
