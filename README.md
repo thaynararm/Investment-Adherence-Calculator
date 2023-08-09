@@ -73,9 +73,9 @@ O projeto envolve a criação de um banco de dados PostgreSQL, a ingestão de da
 
 ## Como Usar
 
-1. Clone este repositório para o seu ambiente local.
+1. A consulta pode ser feita direto no banco de dados utilizando o comando do arquivo 'adhesion_consultation'.
 
-2. A consulta pode ser feita direto no banco de dados utilizando o comando do arquivo 'adhesion_consultation'.
+2. Para visualizar em uma dashboard clone este repositório para o seu ambiente local.
 
 3. Configure e inicie seu ambiente virtual (se estiver usando um).
 
